@@ -1,7 +1,11 @@
-const botao = document.querySelector('#producao');
+const somar = document.querySelector('#somar');
+const subtrair = document.querySelector('#subtrair');
+const braco = document.querySelector('#braco');
 
-botao.addEventListener('click', dizOi)
+somar.addEventListener('click',() => {
+    braco.value = parseInt(braco.value) + 1
+})
 
-function dizOi() {
-    console.log('oi');
-}
+subtrair.addEventListener('click',() => {
+    braco.value = parseInt(braco.value) - 1
+})
