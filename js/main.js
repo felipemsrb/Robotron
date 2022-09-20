@@ -66,3 +66,20 @@ function atualizaDados(peca) {
         
     })
 }
+
+function trocaImagem(alterar){
+    const ImagemRobo = document.querySelector('[data-robo]');    
+
+    const cores = [
+        'azul',
+        'branco',
+        'preto',
+        'rosa',
+        'vermelho',
+        'amarelo'
+    ]
+
+    if(cores.includes(alterar)){
+        ImagemRobo.src = `./img/robotron-${alterar}.png`;
+    }
+}
