@@ -37,6 +37,39 @@ main {
     position: relative;
 }
 
+.botoes {
+    position: relative;
+    right: -4%;
+    bottom: -102%;
+    display: flex;
+ }
+
+ .alterar {
+    height: 50px;
+    width: 50px;
+ }
+
+ .alterar.azul {
+    background-color: blue;
+ }
+ .alterar.amarelo {
+    background-color: yellow;
+ }
+ .alterar.branco {
+    background-color: whitesmoke;
+ }
+ .alterar.preto {
+    background-color: black;
+ }
+ .alterar.rosa {
+    background-color: pink;
+ }
+ .alterar.vermelho {
+    background-color: red;
+ }
+
+
+
 .robo {
     height: 110%;
     z-index: 1;
